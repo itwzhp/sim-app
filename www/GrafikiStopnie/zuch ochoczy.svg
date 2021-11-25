@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#f7c313" height="100" id="svg_1" stroke="#f7c313" stroke-width="5" width="400" x="0" y="0"/>
+  <polygon cx="131" cy="22" fill="#ffffff" id="svg_3" orient="point" point="5" points="200,20.06151294708252 206.48507690429688,44.234758377075195 231.47918701171875,42.93248176574707 210.49305725097656,56.57009315490723 219.45521545410156,79.9384880065918 200,64.1937484741211 180.5447998046875,79.9384880065918 189.50692749023438,56.57009315490723 168.52081298828125,42.93248176574707 193.51492309570312,44.234758377075195 200,20.06151294708252 206.48507690429688,44.234758377075195 " r="33.099178" r2="11.033059" radialshift="0" shape="star" starRadiusMultiplier="3" stroke="#ffffff" stroke-width="5" strokeWidth="5" strokecolor="#000000"/>
+ </g>
+</svg>
