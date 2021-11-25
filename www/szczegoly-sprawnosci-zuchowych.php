@@ -7,7 +7,7 @@
 		die("Connection failed: " . $connection->connect_error);
 	} 
 	
-	$IDsprawnosci= $_GET['ID'];
+	$IDsprawnosci= htmlspecialchars($_GET['ID']);
 	$sql="SELECT `Nazwa-M`, `Nazwa-Z`,`Wymagania`, `Uwagi` From sprawnoscizuchowe WHERE ID= ?";
 	$stmt = $connection->prepare($sql);
 	$stmt->bind_param('i',$IDsprawnosci);

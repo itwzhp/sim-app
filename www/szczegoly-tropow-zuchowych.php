@@ -13,7 +13,7 @@ return preg_replace($reg_pattern, '<a href="$0" target="_blank" rel="noopener no
 		die("Connection failed: " . $connection->connect_error);
 	} 
 	
-	$IDtropu= $_GET['ID'];
+	$IDtropu= htmlspecialchars($_GET['ID']);
 	$sql="SELECT `Nazwa`, `Zadania`,`Bibliografia`, `Dla-Wychowawcy`,`Cele-Zrownowazonego-Rozwoju`,`Sluzba` From tropyzuchowe WHERE ID= ?";
 	$stmt = $connection->prepare($sql);
 	$stmt->bind_param('i',$IDtropu);
